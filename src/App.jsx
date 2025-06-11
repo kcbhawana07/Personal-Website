@@ -7,7 +7,7 @@ export default function Portfolio() {
       <div className="max-w-5xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden grid md:grid-cols-3">
         
         {/* Left Side - Image */}
-    <div>
+
           <img
             src={profileImage}
             alt="Bhawana KC"
@@ -21,7 +21,7 @@ export default function Portfolio() {
             <p>GitHub: <a href="https://github.com/kcbhawana07" target="_blank" className="text-blue-500">github.com/kcbhawana07</a></p>
             <p>LinkedIn: <a href="https://www.linkedin.com/in/bhawana-kc-7baa112ab/" target="_blank" className="text-blue-500">linkedin.com/in/bhawana-kc</a></p>
           </section>
-          </div>
+        
           
 
       
