@@ -7,13 +7,24 @@ export default function Portfolio() {
       <div className="max-w-5xl mx-auto bg-white rounded-2xl shadow-xl overflow-hidden grid md:grid-cols-3">
         
         {/* Left Side - Image */}
-        <div className="bg-blue-100 flex items-center justify-center p-6">
+    <div>
           <img
             src={profileImage}
             alt="Bhawana KC"
-            className="w-48 h-48 rounded-full object-cover shadow-md border-4 border-white"
+            className=" w-48 h-48 rounded-full object-cover shadow-md border-4 border-white left-side:top"
           />
-        </div>
+
+                {/* Contact Section */}
+          <section className="space-y-1">
+            <h2 className="text-2xl font-semibold text-gray-700 border-b pb-1">Contact</h2>
+            <p>Email: <a href="mailto:kcbhawana78@gmail.com" className="text-blue-500">kcbhawana78@gmail.com</a></p>
+            <p>GitHub: <a href="https://github.com/kcbhawana07" target="_blank" className="text-blue-500">github.com/kcbhawana07</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/bhawana-kc-7baa112ab/" target="_blank" className="text-blue-500">linkedin.com/in/bhawana-kc</a></p>
+          </section>
+          </div>
+          
+
+      
 
         {/* Right Side - Content */}
         <div className="md:col-span-2 p-8 space-y-6">
@@ -26,22 +37,32 @@ export default function Portfolio() {
             </p>
           </header>
 
-          {/* Contact Section */}
-          <section className="space-y-1">
-            <h2 className="text-2xl font-semibold text-gray-700 border-b pb-1">Contact</h2>
-            <p>Email: <a href="mailto:kcbhawana78@gmail.com" className="text-blue-500">kcbhawana78@gmail.com</a></p>
-            <p>GitHub: <a href="https://github.com/kcbhawana07" target="_blank" className="text-blue-500">github.com/kcbhawana07</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/bhawana-kc-7baa112ab/" target="_blank" className="text-blue-500">linkedin.com/in/bhawana-kc</a></p>
-          </section>
-
+   
           {/* Interests Section */}
           <section>
             <h2 className="text-2xl font-semibold text-gray-700 border-b pb-1">Interests</h2>
             <p>
               I am passionate about <strong>Data Analysis</strong> and currently exploring <strong>Frontend Development</strong>.
-              I love learning new technologies and solving real-world problems through code.
+            I have a little interest in software development and would like to explore coding, building apps, and solving problem.  I love learning new technologies and solving real-world problems through code.
             </p>
           </section>
+
+          <section>
+  <h2 className="text-2xl font-semibold text-gray-700 border-b pb-1 mb-3">Hobbies</h2>
+  <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 text-center text-gray-600">
+    {[
+      { name: "Walking", src: "https://img.icons8.com/ios-filled/50/walking.png" },
+      { name: "Trekking", src: "https://img.icons8.com/ios-filled/50/mountain.png" },
+      { name: "Hiking", src: "https://img.icons8.com/ios-filled/50/trekking.png" },
+      { name: "Travelling", src: "https://img.icons8.com/ios-filled/50/around-the-globe.png" }
+    ].map(hobby => (
+      <div key={hobby.name} className="flex flex-col items-center">
+        <img src={hobby.src} alt={hobby.name} className="w-10 h-10" />
+        <span>{hobby.name}</span>
+      </div>
+    ))}
+  </div>
+</section>
 
           
 
