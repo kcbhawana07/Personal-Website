@@ -46,11 +46,11 @@ export default function Portfolio() {
               <div className="bg-gray-50 p-6 rounded-lg">
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">Personal Portfolio Website</h3>
                 <p className="text-gray-600 text-sm mb-3">A responsive portfolio website built with React and Tailwind CSS</p>
-                <div className="flex flex-wrap gap-2">
+                {/* <div className="flex flex-wrap gap-2">
                   <span className="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded">React</span>
                   <span className="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded">Tailwind CSS</span>
                   <span className="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded">JavaScript</span>
-                </div>
+                </div> */}
               </div>
             </div>
           </section>
