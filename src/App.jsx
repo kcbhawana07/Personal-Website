@@ -18,11 +18,14 @@ export default function Portfolio() {
           <section>
             <h2 className="text-2xl font-semibold text-gray-700 border-b pb-2 mb-4">About Me</h2>
             <p className="text-gray-600 leading-relaxed">
-              I am a passionate software engineering student .
+              I am Bhawana KC, a passionate software engineer who loves building efficient and user-friendly applications.
+               I enjoy solving problems, learning new technologies, and so on that make a real-world impact.
+                My focus is on writing clean, maintainable code and continuously improving my skills.
+              {/* I am a passionate software engineering student .
               I enjoy exploring new technologies and building practical solutions 
               that make a real impact. My goal is to develop innovative applications and solve complex problems through technology, 
-              particularly in the fields of AI and data Engineering. I believe in continuous learning and staying updated with the latest 
-              technological advancements to create meaningful solutions.
+              particularly in the fields of data Engineering. I believe in continuous learning and staying updated with the latest 
+              technological advancements to create meaningful solutions. */}
             </p>
           </section>
 
@@ -112,7 +115,7 @@ export default function Portfolio() {
               </div>
             </div>
 
-            {/* Web Technologies */}
+            {/* Web Technologies
             <div className="mb-6">
               <h3 className="text-lg font-medium text-gray-800 mb-3">Web Technologies</h3>
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
@@ -145,7 +148,7 @@ export default function Portfolio() {
                   </div>
                 ))}
               </div>
-            </div>
+            </div> 
 
             {/* Tools & Others */}
             <div>
@@ -171,9 +174,9 @@ export default function Portfolio() {
             <h2 className="text-2xl font-semibold text-gray-700 border-b pb-2 mb-4">Hobbies & Interests</h2>
             <div className="grid grid-cols-2 sm:grid-cols-5 gap-6">
               {[
-                { name: "Walking", src: "https://img.icons8.com/ios-filled/50/walking.png" },
-                { name: "Trekking", src: "https://img.icons8.com/ios-filled/50/mountain.png" },
-                { name: "Hiking", src: "https://img.icons8.com/ios-filled/50/trekking.png" },
+                // { name: "Walking", src: "https://img.icons8.com/ios-filled/50/walking.png" },
+                // { name: "Trekking", src: "https://img.icons8.com/ios-filled/50/mountain.png" },
+                // { name: "Hiking", src: "https://img.icons8.com/ios-filled/50/trekking.png" },
                 { name: "Traveling", src: "https://img.icons8.com/ios-filled/50/around-the-globe.png" },
                 { name: "Problem Solving", src: "https://img.icons8.com/ios-filled/50/puzzle.png" }
               ].map(hobby => (
